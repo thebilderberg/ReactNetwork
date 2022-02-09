@@ -1,0 +1,9 @@
+.Window {
+    padding: 20px;
+}
+
+.Block {
+    background: linear-gradient(to bottom, #fa99a9 0%, #ffc2cc 100%);
+    border-radius: 20px;
+    padding: 20px;
+}

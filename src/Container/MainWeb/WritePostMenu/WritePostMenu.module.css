@@ -1,0 +1,22 @@
+.InputBox {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5px;
+}
+
+.InputWindow {
+    width: 700px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.InputButton {
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.InputButtonDiv {
+    display: grid;
+    align-items: center;
+}

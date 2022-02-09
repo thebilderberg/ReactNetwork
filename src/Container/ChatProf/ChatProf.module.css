@@ -1,0 +1,23 @@
+.ChatProfBox {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+
+.UsersNicks {
+    display: grid;
+    grid-gap: 20px;
+    background-color: #f5667c;
+}
+
+.UserMessageBox {
+    /*background: linear-gradient(to bottom, #eacf53 0%, #f3efa7 100%);*/
+    display: grid;
+    grid-gap: 20px;
+    color: #000713;
+}
+
+.UserImgClass {
+    width: 50px;
+}
+

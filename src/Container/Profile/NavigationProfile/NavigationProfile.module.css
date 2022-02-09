@@ -1,0 +1,16 @@
+
+
+.navigatorProfile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.settingProfImgClass {
+    width: 50px;
+}
+.tutorialImgClass {
+    width: 50px;
+}
+.chatImgClass {
+    width: 50px;
+}

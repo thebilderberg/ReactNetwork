@@ -1,0 +1,64 @@
+.AllProfile {
+    background: linear-gradient(to bottom, #ff8fa2 0%, #ffc2cc 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Header {
+    height: 150px;
+    grid-column: 1/5;
+    text-align: -webkit-center;
+    background: url("./window.jpg");
+}
+.WindowImg {
+
+}
+.AvatarBox {
+    grid-column: 2/4;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.AvatarIconImg {
+    height: 300px;
+}
+
+.Info {
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    background-color: #010d01;
+    color: #06850f;
+}
+
+.boxTextInfo {
+    padding: 5px 5px 5px 5px;
+    background-color: #010d01;
+}
+.textInfo {
+    background-color: #e7eef0;
+    color: #010d01;
+    border-radius: 5px;
+
+}
+
+
+.RatingBox {
+    display: grid;
+    align-items: center;
+}
+
+.RatingImgClass {
+    width: 150px;
+}
+
+.chatImgClass {
+    width: 70px;
+}
+
+.settingProfImgClass {
+    width: 70px;
+}
+
+.tutorialImgClass {
+    width: 70px;
+}

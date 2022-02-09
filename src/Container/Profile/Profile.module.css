@@ -1,0 +1,68 @@
+.allProfileBox {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.AllProfile {*/
+/*    height: 500px;*/
+/*    background-color: #959ab6;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 1fr 1fr;*/
+/*}*/
+/*.Header {*/
+/*    grid-column: 1/5;*/
+/*    text-align: -webkit-center;*/
+/*    background: url("./window.jpg");*/
+/*}*/
+/*.WindowImg {*/
+
+/*}*/
+/*.AvatarBox {*/
+/*    grid-column: 2/4;*/
+/*    display: grid;*/
+/*    align-items: center;*/
+/*    justify-items: center;*/
+/*}*/
+/*.AvatarIconImg {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*}*/
+
+/*.Info {*/
+/*    grid-column: 1/5;*/
+/*}*/
+/*.RatingBox {*/
+/*    display: grid;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.RatingImgClass {*/
+/*    width: 150px;*/
+/*}*/
+
+/*.chatImgClass {*/
+/*    width: 70px;*/
+/*}*/
+
+/*.settingProfImgClass {*/
+/*    width: 70px;*/
+/*}*/
+
+/*.tutorialImgClass {*/
+/*    width: 70px;*/
+/*}*/

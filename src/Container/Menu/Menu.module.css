@@ -1,0 +1,11 @@
+nav {
+    background: linear-gradient(to bottom, #783516 0%, #5e2f0d 100%);
+}
+a {
+    text-decoration: none;
+    color: #0e0000;
+}
+
+nav a[aria-current="page"] {
+    color: #ffffff;
+}

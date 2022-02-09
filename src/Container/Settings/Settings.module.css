@@ -1,0 +1,42 @@
+.Settings {
+    background: linear-gradient(to bottom, #fa99a9 0%, #ffc2cc 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #000000;
+    height: 300px;
+}
+
+.Container {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.Sound {
+    display: grid;
+    grid-template-columns: 150px 50px;
+}
+
+.Private {
+    display: grid;
+    grid-template-columns: 150px 50px;
+}
+
+.Theme {
+    display: grid;
+    grid-template-columns: 150px 50px;
+}
+
+.LinkBackProfile {
+    background-color: #ff294d;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.LinkBackProfile a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+
+}

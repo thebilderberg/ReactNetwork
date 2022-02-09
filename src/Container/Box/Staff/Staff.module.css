@@ -1,0 +1,15 @@
+.Staff {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr;
+    border-width: 1px;
+    border-color: rgba(110, 62, 149, 0.56);
+    border-style: outset;
+}
+.ImgIconPng {
+    height: 50px;
+    width: 50px;
+}
+.Like {
+    grid-column: 1/5;
+    justify-self: self-start;
+}
