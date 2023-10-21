@@ -1,0 +1,16 @@
+.CreateDelListComp {
+	background: #7474e3;
+}
+
+.inputBox {
+	display: flex;
+	justify-content: center;
+}
+
+.inputBox input {
+	width: 250px;
+}
+
+.buttonClass {
+	height: 40px;
+}

@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 5px;
+    background: linear-gradient(to top, #974450 0%, #864c2f 100%);
 }
 
 .InputWindow {

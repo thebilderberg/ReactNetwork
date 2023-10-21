@@ -1,0 +1,14 @@
+input {
+	height: 40px;
+	font-size: 20px;
+	width: 50vw;
+}
+
+.inputBox {
+	background: #7474e3;
+	padding: 20px;
+}
+
+.InputClass {
+	width: 500px;
+}

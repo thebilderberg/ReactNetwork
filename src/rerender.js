@@ -4,9 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import {addPost} from "./Redux/States";
-import {addMessage} from "./Redux/States"
-
+import {addPost, statusZP} from "./Redux/States";
+import {addMessage} from "./Redux/States";
 
 
 
@@ -14,7 +13,10 @@ export let rerenderThree = (states) => {
     ReactDOM.render(
         <React.StrictMode>
             <BrowserRouter>
-                <App states={states} addPost={addPost} addMessage={addMessage}/>
+                <App states={states}
+                     addPost={addPost}
+                     addMessage={addMessage}
+                     statusZP={statusZP}/>
             </BrowserRouter>
         </React.StrictMode>,
         document.getElementById('root')

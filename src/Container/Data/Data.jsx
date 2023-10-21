@@ -1,22 +1,26 @@
 import React from "react";
-import {Outlet} from "react-router-dom";
-import Settings from "../Settings/Settings";
-import Menu from './contains/Menu/Menu.jsx';
-import Header from './contains/Header/Header.jsx';
-import Search from './contains/container/Search/Search.jsx';
-import Head from './contains/container/Head/Head.jsx';
-import Filter from './contains/container/Filter/Filter.jsx';
-import ListBox from './contains/container/list/ListBox/ListBox.jsx';
+import SearchX from './contains/Search/Search.jsx';
+import Head from './contains/Head/Head.jsx';
+import Filter from './contains/Filter/Filter.jsx';
+import ListBox from './contains/list/ListBox/ListBox.jsx';
+import CreateDelListComp from "./contains/CreateDelListComp/CreateDelListComp.jsx";
+import style from "./Data.module.css";
 
 
 
-const Data = () => {
+const Data = (props) => {
     return (
-            <div>
-                <Head/>
-                <Search/>
-                <Filter/>
-                <ListBox/>
+            <div className={style.Key}>
+                <div></div>
+                <div>
+                    <Head/>
+                    <SearchX/>
+                    <Filter/>
+                    <ListBox dataCalc={props.dataCalc}
+                             statusZP={props.statusZP}/>
+                    <CreateDelListComp/>
+                </div>
+                <div></div>
             </div>
     );
 }

@@ -1,4 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 5vw 1fr;
+    height: 90vh;
+    font-family: sans-serif;
 }

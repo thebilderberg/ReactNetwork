@@ -3,10 +3,6 @@ import myPicture from "./playstation.png";
 import style from "./Header.module.css";
 
 
-
-
-
-
 const Header = () => {
     return (
         <div className={style.header}>

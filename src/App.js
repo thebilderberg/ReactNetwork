@@ -1,15 +1,15 @@
-import './App.css';
 import React from "react";
-// import React, { Component } from "react";
 import Header from "./Header/Header";
 import Container from "./Container/Container";
 
 
-const App = (props) => {
+const App = ({states, addPost, addMessage}) => {
   return (
       <div className="app">
           <Header/>
-          <Container states={props.states} addPost={props.addPost} addMessage={props.addMessage}/>
+          <Container states={states}
+                     addPost={addPost}
+                     addMessage={addMessage}/>
       </div>
   );
 }

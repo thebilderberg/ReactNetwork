@@ -1,8 +1,9 @@
 
 
 .header {
-    height: 100px;
+    height: 10vh;
     background: linear-gradient(to top, #783516 0%, #5e2f0d 100%);
+    text-align: center;
 }
 
 .ImgHeader {

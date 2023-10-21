@@ -1,0 +1,16 @@
+.listProfileComponent {
+	display: flex;
+	justify-content: space-around;
+}
+
+.ImgUser {
+	height: 50px;
+	text-align: center;
+}
+
+
+.active {
+	display: flex;
+	justify-content: space-around;
+	color: greenyellow;
+}

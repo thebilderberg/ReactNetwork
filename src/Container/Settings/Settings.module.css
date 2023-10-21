@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: #000000;
-    height: 300px;
 }
 
 .Container {

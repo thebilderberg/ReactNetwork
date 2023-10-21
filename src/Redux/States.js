@@ -31,7 +31,15 @@ let states = {
             {id: 2, message: 'I have a question'},
             {id: 3, message: 'Why does the inexorable running of time never stop, and what do the smallest stars hide in the darkened sky?'},
         ]
-    }
+    },
+    dataCalc: {
+        dataCalcObj: [
+            {name: 'John', zp: '$1000', status: false, id: 1},
+            {name: 'Mike', zp: '$1000', status: true, id: 2},
+            {name: 'Ann', zp: '$1000', status: false, id: 3},
+            {name: 'Roman', zp: '$1000', status: false, id: 4},
+        ]
+    },
 }
 
 export default states;
@@ -42,10 +50,13 @@ export let addPost = (newMassage) => {
     rerenderThree(states);
 };
 
-
 export let addMessage = (newMessage) => {
   let writeNewMessage = {id:4, message: newMessage};
   states.chats.UserMessageData.push(writeNewMessage);
   rerenderThree(states);
 };
 
+export let statusZP = (id) => {
+    states.dataCalc.dataCalcObj[id].status = true;
+    rerenderThree(states);
+};
